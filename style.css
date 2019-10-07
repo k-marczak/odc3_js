@@ -4,3 +4,52 @@ body{
     font-size: 28px;
 }
 
+#pojemnik{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#plansza{
+    width: 900px;
+    border: 1px solid white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    min-height: 60px;
+    text-align: center;
+    font-size: 48px;
+}
+
+#szubienica{
+    float: left;
+    border: 1px solid white;
+    width: 430px;
+    min-height: 300px;
+}
+
+#alfabet{
+    float: left;
+    border: 1px solid white;
+    width: 430px;
+    min-height: 300px;
+
+}
+
+.litera
+{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border: 3px solid gray;
+    float: left;
+    border-radius: 20px;
+}
+
+.litera:hover{
+    background-color: #222222;
+    color: white;
+    border: 3px solid white;
+    cursor: pointer;
+}
